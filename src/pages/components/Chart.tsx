@@ -110,16 +110,16 @@ export function Chart() {
             >
               <div
                 className={cn(
-                  "size-12 rounded-full flex justify-center items-center border-2",
+                  "size-10 md:size-10 lg:size-12 rounded-full flex justify-center items-center border-2",
                   `border-[${item.color2}]`
                 )}
                 style={{
                   background: `linear-gradient(to bottom, ${item.color1}, ${item.color2})`,
                 }}
               >
-                <PiStarOfDavid className="size-10" />
+                <PiStarOfDavid className="size-6 md:size-8 lg:size-10" />
                 <p
-                  className="absolute text-sm font-bold rounded-full flex items-center justify-center  text-white size-6"
+                  className="absolute text-sm font-bold rounded-full flex items-center justify-center  text-white size-4 md:size-5 lg:size-7 "
                   style={{
                     background: `linear-gradient(to bottom, ${item.color1}, ${item.color2})`,
                   }}
