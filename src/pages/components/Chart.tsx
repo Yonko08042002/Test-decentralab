@@ -55,7 +55,7 @@ export function Chart() {
             data={chartData}
             margin={{
               left: 20,
-              right: 12,
+              right: 20,
             }}
           >
             <defs>
