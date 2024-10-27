@@ -48,7 +48,7 @@ const chartConfig = {
 export function Chart() {
   return (
     <Card className="py-10 bg-transparent border-none">
-      <CardContent>
+      <CardContent className="p-0">
         <ChartContainer config={chartConfig}>
           <AreaChart
             accessibilityLayer
